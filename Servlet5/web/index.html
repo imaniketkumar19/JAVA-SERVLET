@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>welcome</div>
+         <form action="" method="post" id="arith">
+            Enter a 1st no.:    <input type="text" name="m1"><br>
+            Enter a 2nd no.:<input type="text" name="m2"><br>
+            <!--Enter a Fee:     <input type="text" name="m3"><br>-->
+            <input type="submit" value="add" onclick="add()">
+            <input type="submit" value="sub" onclick="sub()">
+            <input type="submit" value="mul" onclick="mul()">
+            <input type="submit" value="div" onclick="div()">
+            <input type="submit" value="rem" onclick="rem()">
+            
+            <script>
+            function add()
+    {
+        document.getElementById("arith").action="add";
+        document.getElementById("arith").submit();
+        
+    }
+     function sub()
+    {
+        document.getElementById("arith").action="sub";
+        document.getElementById("arith").submit();
+        
+    }
+    function mul()
+    {
+        document.getElementById("arith").action="mul";
+        document.getElementById("arith").submit();
+        
+    }
+         
+     function div()
+    {
+        document.getElementById("arith").action="div";
+        document.getElementById("arith").submit();
+        
+    }
+    
+     function rem()
+    {
+        document.getElementById("arith").action="rem";
+        document.getElementById("arith").submit();
+        
+    }
+         
+            
+            
+            </script>
+        </form>
+    </body>
+</html>
